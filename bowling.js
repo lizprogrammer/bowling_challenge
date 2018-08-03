@@ -15,16 +15,14 @@ function Bowling(arr) {
         */
        if (scores[i] == 10) {
            roundScore += scores[i + 2] + scores[i + 3];
-       } 
-	else if (scores[i] + scores[i + 1] == 10) {
-       roundScore += scores[i + 2];
+       } else if (scores[i] + scores[i + 1] == 10) {
+        roundScore += scores[i = 2];
        }
 
 
 
 
         total += roundScore;
-	roundScore = 0;
         console.log(total);
         }
         //console.log(total);
@@ -57,4 +55,4 @@ if scores[i] + scores [i + 1] == 10
 
 
 
-Bowling([1, 4, 4, 5, 6, 4, 5, 5, 10, 0, 0, 1, 7, 3, 6, 4, 10, 0, 2, 8, 6]);
+//Bowling([1, 4, 4, 5, 6, 4, 5, 5, 10, 0, 0, 1, 7, 3, 6, 4, 10, 0, 2, 8, 6]);
